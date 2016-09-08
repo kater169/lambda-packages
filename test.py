@@ -4,4 +4,5 @@ from nose.tools import assert_true
 
 def test_packages():
     for name, details in lambda_packages.items():
+        print name, details
         assert_true(os.path.exists(details['path']))
