@@ -65,6 +65,4 @@ lambda_packages = {
         'path': os.path.join(os.path.dirname(os.path.abspath(__file__)),
                              'GDAL', 'gdal-2.0.0-amz1.tar.gz')
     }
-
-
 }
